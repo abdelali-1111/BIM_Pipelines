@@ -36,7 +36,13 @@ Containerization: Docker & Docker Compose
 
 Languages & Frameworks: Python, SQL
 
-D:\Master M2\Project_Data\BIM_Piplines\assets\architecture.png
+## 🏗️ Platform Architecture
+
+![Platform Architecture](assets/architecture.png)
+
+## 🖼️ Interface Screenshots
+
+![Airflow DAGs View](assets/airflow_dags.png)
 
 Apache Airflow Dashboard
 
