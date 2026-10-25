@@ -54,11 +54,7 @@ Adminer provides a lightweight web interface for inspecting and managing the Pos
 | Programming | Python | Ingestion and pipeline task logic |
 | Transformations | SQL | Data cleansing, normalization, and aggregation |
 
-## 🖼️ Airflow Interface
 
-![Apache Airflow DAGs](assets/airflow_dags.png)
-
-*Apache Airflow dashboard displaying the project's data pipeline workflows.*
 
 ## 🚀 Getting Started
 
