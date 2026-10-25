@@ -66,14 +66,32 @@ docker compose up -d
 
 
 Access Web Interfaces:
+Apache Airflow UI
 
-Airflow UI: http://localhost:8081
+URL: http://localhost:8083
 
-Adminer UI: http://localhost:8085
+Username: admin
 
-Retrieve Airflow Admin Password:
+Password: Retrieve the auto-generated password by running:
 
-docker compose logs bim-airflow
+docker compose exec airflow cat /opt/airflow/standalone_admin_password.txt
+
+
+Note: You should see 1_streaming and 2_batch running. 3_staging and 4_marts are ready for your data pipeline tasks.
+
+Adminer UI (Database Management)
+
+URL: http://localhost:8086
+
+System: PostgreSQL
+
+Server: postgres
+
+Username: bim
+
+Password: bim
+
+Database: bim
 
 
 ## 🗂️ Project Structure
