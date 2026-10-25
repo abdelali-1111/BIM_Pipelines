@@ -50,7 +50,7 @@ Installation Steps
 
 Clone the repository:
 
-git clone https://github.com//BIM_Pipelines.git
+git clone https://github.com/abdelali-1111/BIM_Pipelines.git
 cd BIM_Pipelines
 
 
@@ -70,8 +70,9 @@ Retrieve Airflow Admin Password:
 docker compose logs bim-airflow
 
 
-🗂️ Project Structure
+## 🗂️ Project Structure
 
+```text
 BIM_Pipelines/
 ├── dags/                  # Airflow DAG definitions
 │   ├── 1_streaming_dag.py
