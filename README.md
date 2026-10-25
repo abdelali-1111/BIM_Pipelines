@@ -93,7 +93,7 @@ docker compose ps
 
 Open the Airflow web interface:
 
-**URL:** http://localhost:8083
+**URL:** http://localhost:8081
 
 **Username:** `admin`
 
@@ -111,7 +111,7 @@ Once logged in, inspect the available DAGs and their execution status.
 
 Open the database management interface:
 
-**URL:** http://localhost:8086
+**URL:** http://localhost:8085
 
 Use the following connection settings:
 
